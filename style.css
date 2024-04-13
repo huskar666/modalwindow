@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+.button{
+    padding: 5px;
+    margin: 4px;
+    border-radius: 5px;
+    background-color: darkolivegreen;
+    font-family: "Truculenta", sans-serif;
+    height: 40px;
+    width: 100px;
+    font-size: medium;
+    position: absolute;
+    left: 105px;
+    bottom: 15px;
+}
+.modal1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 1;
+    border-radius: 10px;
+}
+.is-hidden{
+opacity: 0;
+pointer-events: none;
+}
+.modal{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+     background-color: lightblue;
+     padding: 10px;
+     min-height: 200px;
+     min-width: 300px;
+     transform: translate(-50%, -50%);
+     border-radius: 10px;
+}
+.text{
+    margin-left: 100px;
+    margin-top: 75px;
+}
+.form{
+   position: absolute;
+   left: 70px;
+   top: 40px;
+   
+}
+.register{
+    margin-bottom: 10px;
+    background-color: darkolivegreen;
+    
+}
